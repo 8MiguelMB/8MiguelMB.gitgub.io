@@ -1,0 +1,28 @@
+body{
+    background-image: 
+          repeating-linear-gradient(
+              45deg,
+              #ffffcc,
+              #002060 30px,
+              #000000 60px,
+              #002060 90px            
+          );
+    backdrop-filter: blur( 5px );
+    
+    font-family:Ginebra,arial,helvética;
+    color: lightgrey;
+    text-align:center;
+    text-shadow: 1px 1px 2px black;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin:0;
+  }
+  .main-text{
+    font-size: 10vh;
+  }
+  .submain-text{
+    font-size: 5vh;
+  }
